@@ -1,0 +1,11 @@
+﻿<Window x:Class="WPF.TwoInOne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rep="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+       <WindowsFormsHost >
+           <rep:ReportViewer x:Name="reportViewer1" />
+       </WindowsFormsHost>
+    </Grid>
+</Window>
